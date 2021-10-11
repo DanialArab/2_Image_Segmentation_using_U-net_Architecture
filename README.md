@@ -9,6 +9,7 @@ The encoder consists of normal feedforward neural network including convolutiona
 
 
 References:
+
 [1] Ronneberger, O., Fischer, P.,  Brox, T. (2015, October). U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention (pp. 234-241). Springer, Cham.
 
 [2] Andrew Ng -- Convolutional Neural Networks course
