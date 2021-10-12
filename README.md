@@ -1,6 +1,6 @@
-# 2_Image_Segmentation_using_U-net_Architecture
+# 2_Multi_Class_Semantic_Segmentation_using_U-net_Architecture
 
-Ronneberger et al., 2015 presented U-net architecture (Fig. 1) to segment biomedical images [1].However, other than this specific application, U-net architecture has been found to be very useful for much broader computer vision application for semantic segmentation [2]. Input (original image) to the U-net is h * w * 3 (RGB image) and its output would be a segmented image with the same size as the original image but with the number of classes specified as the number of channels (h * w * nC) [2].
+Ronneberger et al., 2015 presented U-net architecture (Fig. 1) to segment biomedical images [1]. However, other than this specific application, U-net architecture has been found to be very useful for much broader computer vision application for semantic segmentation [2]. Input (original image) to the U-net is h * w * 3 (RGB image) and its output would be a segmented image with the same size as the original image but with the number of classes specified as the number of channels (h * w * nC) [2].
 
 ![Fig  1](https://user-images.githubusercontent.com/54812742/136703882-1a15430c-16a8-4e59-a0dc-2f52d5e19033.PNG)
 
@@ -16,7 +16,7 @@ Also, some random images from the testing dataset are chosen and the correspondi
 ![image](https://user-images.githubusercontent.com/54812742/136980426-6d0207e4-d074-41da-a3db-efaebca84155.png)
 
 
-For semantic segmentation, accuracy is not an appropriate metric to evaluate the model performance. And instead, intersection over union (IoU) is a more reliable criteria. The IoU for different classes were calculated as 0.77, 0.86, and 0.46 for the class 1, 2, and 3, respectively. The mean IoU is 0.69615537.
+For semantic segmentation, accuracy is not an appropriate metric to evaluate the model performance. And instead, intersection over union (IoU) is a more reliable criterion. The IoU for different classes were calculated as 0.77, 0.86, and 0.46 for the class 1, 2, and 3, respectively. The mean IoU is 0.69615537.
 
 References:
 
