@@ -16,7 +16,7 @@ Also, some random images from the testing dataset are chosen and the correspondi
 ![image](https://user-images.githubusercontent.com/54812742/136980426-6d0207e4-d074-41da-a3db-efaebca84155.png)
 
 
-For semantic segmentation, accuracy is not an appropriate metric to evaluate the model performance. And instead, intersection over union (IoU) is a more reliable criterion. The IoU for different classes were calculated as 0.77, 0.86, and 0.46 for the class 1, 2, and 3, respectively. The mean IoU is 0.69615537.
+For semantic segmentation, accuracy is not an appropriate metric to evaluate the model performance. And instead, intersection over union (IoU) is a more reliable criterion. The IoU for different classes were calculated as 0.77, 0.86, and 0.46 for the class 1, 2, and 3, respectively. The mean IoU is 0.70.
 
 References:
 
